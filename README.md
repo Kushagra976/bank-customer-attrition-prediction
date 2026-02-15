@@ -1,17 +1,40 @@
-# Bank Customer Attrition Prediction
+Bank Customer Attrition Prediction
+📌 Objective
 
-This project predicts whether a bank customer will churn using Logistic Regression and GridSearchCV.
+Build a machine learning model to predict customer churn using Logistic Regression and optimize performance using GridSearchCV and threshold tuning.
 
-## Objective
-Build a binary classification model to identify customers likely to leave the bank.
+📊 Dataset
 
-## Techniques Used
-- Data preprocessing
-- Feature encoding
-- StandardScaler
-- Logistic Regression
-- Hyperparameter tuning with GridSearchCV
-- Model evaluation (Precision, Recall, F1, ROC-AUC)
+Bank Customer Attrition dataset from Kaggle.
 
-## Dataset
-Bank Customer Attrition Dataset (Kaggle)
+🛠 Techniques Used
+
+Data Cleaning
+
+Exploratory Data Analysis
+
+One-hot Encoding
+
+StandardScaler
+
+Logistic Regression
+
+GridSearchCV (Hyperparameter tuning)
+
+Threshold Optimization
+
+Evaluation using F1-score and ROC-AUC
+
+📈 Results
+
+ROC-AUC: 0.91
+
+Best Threshold: 0.35
+
+Recall (Churn): 66%
+
+F1-score (Churn): 66%
+
+💼 Business Value
+
+The model enables proactive retention strategies by identifying customers likely to churn while maintaining a balanced precision-recall tradeoff.
